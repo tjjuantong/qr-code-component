@@ -21,7 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 The challenge is to create a QR code component solution that follows the given layout from the picture as close as possible. The challenge was done using HTML, CSS, and Bootstrap 5. 
 
 ### Screenshot
-![sc-qr-component](https://github.com/tjjuantong/qr-code-component/screenshots/sc-qr-component.png)
+![sc-qr-component](https://github.com/tjjuantong/qr-code-component/blob/master/screenshots/sc-qr-component.png)
 
 ### Links
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
