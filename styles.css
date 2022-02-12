@@ -1,20 +1,5 @@
-/* 
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Typography
-
-### Body Copy
-- Font size (paragraph): 15px
-
-### Font
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 400, 700 */
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 :root {
     --white: hsl(0, 0%, 100%);
@@ -22,8 +7,55 @@ The designs were created to the following widths:
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
     --p-font-size: 15px;
+    --b-radius: 1rem; 
 }
 
 * {
     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border-radius: var(--b-radius);
+    background-color: var(--white);
+}
+
+.card-body {
+    background-color: var(--white);
+    border-radius: var(--b-radius);
+}
+
+h5 {
+    font-weight: 700;
+    font-weight: bolder;
+    color: var(--dark-blue);
+}
+
+p {
+    font-size: var(--p-font-size);
+    font-weight: 300;
+    color: var(--grayish-blue)
+}
+
+.attribution { 
+    font-size: 11px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+img {
+    border-radius: var(--b-radius);
 }
