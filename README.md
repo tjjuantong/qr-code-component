@@ -24,7 +24,7 @@ The challenge is to create a QR code component solution that follows the given l
 ![sc-qr-component](https://github.com/tjjuantong/qr-code-component/blob/master/screenshots/sc-qr-component.png)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [http://www.trixellejuantong.me/qr-code-component/](http://www.trixellejuantong.me/qr-code-component/)
 
 ## My process
 - did the structure first in HTML before writing custom styles in css
